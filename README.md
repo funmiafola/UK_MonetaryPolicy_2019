@@ -1,3 +1,6 @@
+
+# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 # UK MONETARY POLICY 2019-2025
 
 This project explores the United Kingdom's monetary policy environment over the period 2019–2025, using key macroeconomic indicators to analyse movements in the policy interest rate.The analysis focuses on three primary variables:
@@ -24,12 +27,14 @@ The dataset is constructed by merging multiple official sources and focuses on t
 The specific business requirements are:
 i.  Data Integration and Consistency:
 Collect, clean, and merge official UK macroeconomic data from multiple sources.
-ii.  Ensure all variables (policy interest rate, CPI, GDP) are aligned to a common quarterly time index for comparability
+ii.Ensure all variables (policy interest rate, CPI, GDP) are aligned to a common quarterly time index for comparability
+
 * Monitoring Key Economic Indicators:
 i. Track trends in the Bank of England’s policy interest rate.
 ii.Analyze inflation dynamics through  the Consumer 
 Price Index (CPI).
 iii. Monitor the GDP
+
 iv.Trend or time-series analysis to explore relationship between interest rates, inflation, and GDP.
 * Store the dataset in a format that is easy to use and update
 
