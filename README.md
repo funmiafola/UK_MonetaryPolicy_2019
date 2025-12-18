@@ -61,18 +61,30 @@ i.Data Collection: Gathered publicly available UK macroeconomic time-series data
 
 ii.Data Processing: Cleaned, aggregated, and aligned all variables to a common quarterly time index to ensure consistency.
 
-iii. ConductedWe would conduct  descriptive statistics and visualizations to understand trends, seasonality, and correlations among variables.
+iii. We would conduct  descriptive statistics and visualizations to understand trends, seasonality, and correlations among variables.
 iv. Interpretation and validation 
 
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 Collection: Integrated multiple official sources, ensuring all data points were accurate and up-to-date.
-Processing: 
 
-Storage: 
+Processing: The processing :
 
-Analysis:
+Involves removing irrelevant columns and duplicate records
 
-Interpretation:
+Handling missing values and ensuring consistent data types
+
+Renaming columns for clarity and consistency
+
+Converting dates into a uniform quarterly format
+
+Aggregating data where necessary to ensure all variables aligned temporally
+
+Storage: The data was stored locally. Raw data saved in teh Raw folder while the final_df.csv saved in the cleaned folder
+Version control (Git) was used to track the chamges to code and data processing steps.
+
+Analysis:The final dataset (final_df.csv) was loaded into the Data_Visualisation notebook for analysis and visualisation
+
+Interpretation: The result were interpreted in an ecominc context explaining how changes in inlation and interest rates corresponded with movement in GDP. 
 
 
 * Why did you choose the research methodologies you used?
@@ -88,7 +100,7 @@ Visualizations allow us to monitor key indicators (interest rate, CPI, GDP), exp
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
+* How did you structure the data analysis techniques. Justify your response.88  
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
@@ -115,18 +127,8 @@ L
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
 
-## Credits 
-
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-
-
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
